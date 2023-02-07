@@ -53,6 +53,7 @@ for e in eq_file["features"]:
         # print(eq_dict)
 
 print(eq_dict)
+print()
 
 for key, value in eq_dict.items():
     print(f"Location: {key}")
