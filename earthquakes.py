@@ -50,7 +50,9 @@ for e in eq_file["features"]:
             "longtitude": e["geometry"]["coordinates"][0],
             "latitude": e["geometry"]["coordinates"][1],
         }
-        print(eq_dict)
+        # print(eq_dict)
+
+print(eq_dict)
 
 for key, value in eq_dict.items():
     print(f"Location: {key}")
